@@ -55,8 +55,9 @@
     
     <!-------- App Navigation ------------>
     
-      <div class="navbar navbar-expand-lg navbar-light app-nav">
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#app-navigation">
+      <nav class="navbar navbar-expand-lg navbar-light app-nav">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#app-navigation" aria-controls="app-navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="app-navigation">
@@ -79,14 +80,11 @@
             <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
           </ul>
       </div>
-    </div>
+    </nav>
 
   </div><!-- .container -->
 
 </header>
-
-
-
 
 
 
@@ -105,16 +103,11 @@
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
