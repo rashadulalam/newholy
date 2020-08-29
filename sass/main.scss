@@ -27,6 +27,7 @@ $body-bg3: rgb(0, 19, 35);
 @import "../node_modules/bootstrap/scss/nav";
 @import "../node_modules/bootstrap/scss/navbar";
 @import "../node_modules/bootstrap/scss/dropdown";
+@import "../node_modules/bootstrap/scss/carousel";
 // @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "./marquee";
 
@@ -197,7 +198,25 @@ header {
     }
 }
 
+// promotion-area
+.promotion-area {
+    background: url('../img/bg.jpg');
+    padding: 3rem 0;
+    .carousel {
+        .carousel-item {
+            img {
+                border: 5px solid #fff;
+            }
+        }
+    }
+}
 
+
+
+
+
+
+// Footer area
 footer {
     margin-top: 25px;
     .site-copyright {
