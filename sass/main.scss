@@ -3,7 +3,6 @@ $h1-font-size: 2rem;
 $body-bg: rgb(255, 255, 255);
 $primary-color: rgb(69, 50, 103);
 $dimWhite: rgb(234, 234, 234);
-$body-bg: rgb(255, 255, 255);
 $body-bg2: rgb(0, 33, 60);
 $body-bg3: rgb(0, 19, 35);
 
@@ -29,7 +28,7 @@ $body-bg3: rgb(0, 19, 35);
 @import "../node_modules/bootstrap/scss/navbar";
 @import "../node_modules/bootstrap/scss/dropdown";
 // @import "../node_modules/bootstrap/scss/bootstrap.scss";
-
+@import "./marquee";
 
 
 .header-notice {
@@ -163,6 +162,40 @@ header {
     }
 }
 
+// news box section
+
+.notice-area {
+    background-color: #00213C;
+    .newbox-title {
+        background-color: #213540;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        h5 {
+            color: #fff;
+            font-weight: normal;
+            font-size: 1rem;
+            line-height: 22px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+    } 
+    .newsbox-list {
+        overflow: hidden;
+        .newicon {
+            margin-left: 15px;
+            color: #8AB5D6;
+        }
+        .js-marquee a{
+            color: #8AB5D6;
+            transition: all 0.5ms;
+            &:hover {
+                color: #BBB;
+                text-decoration: none;
+            }
+        }
+    }
+}
 
 
 footer {
