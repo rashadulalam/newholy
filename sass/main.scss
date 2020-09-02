@@ -212,13 +212,61 @@ header {
 }
 
 
+// nhtea team
+.nhteam-wraper {
+    .nhteam-head {
+        background-color: $body-bg;
+        padding: 15px;
+        img {
+            margin: auto;
+            display: block;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #fff;
+            padding: 3px;
+            border: 1px solid #ccc;
+        }
+        h4 {
+            font-size: 1rem;
+            color: #0075D6;
+            text-align: center;
+            margin: 5px 0;
+            line-height: 18px;
+            span {
+                display: block;
+                font-size: 0.9rem;
+                color: #555;
+            }
+        }
+    }
+    .nhteam-footer {
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            display: block;
+            text-align: center;
+            padding: 7px 5px;
+            span {
+                display: block;
+            }
+        }
+        a.bg1{
+            background-color: #004884;
+        }
+        a.bg2{
+            background-color: #0075d6;
+        }
+    }
+}
 
 
 
 
 // Footer area
 footer {
-    margin-top: 25px;
+    // margin-top: 25px;
     .site-copyright {
         background-color: $body-bg3;
         padding: 15px 0;

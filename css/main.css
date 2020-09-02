@@ -6480,9 +6480,50 @@ header {
   border: 5px solid #fff;
 }
 
-footer {
-  margin-top: 25px;
+.nhteam-wraper .nhteam-head {
+  background-color: white;
+  padding: 15px;
 }
+.nhteam-wraper .nhteam-head img {
+  margin: auto;
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 3px;
+  border: 1px solid #ccc;
+}
+.nhteam-wraper .nhteam-head h4 {
+  font-size: 1rem;
+  color: #0075D6;
+  text-align: center;
+  margin: 5px 0;
+  line-height: 18px;
+}
+.nhteam-wraper .nhteam-head h4 span {
+  display: block;
+  font-size: 0.9rem;
+  color: #555;
+}
+.nhteam-wraper .nhteam-footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  display: block;
+  text-align: center;
+  padding: 7px 5px;
+}
+.nhteam-wraper .nhteam-footer a span {
+  display: block;
+}
+.nhteam-wraper .nhteam-footer a.bg1 {
+  background-color: #004884;
+}
+.nhteam-wraper .nhteam-footer a.bg2 {
+  background-color: #0075d6;
+}
+
 footer .site-copyright {
   background-color: #001323;
   padding: 15px 0;
