@@ -6495,7 +6495,7 @@ header {
   border: 1px solid #ccc;
 }
 .nhteam-wraper .nhteam-head h4 {
-  font-size: 1rem;
+  font-size: 14px;
   color: #0075D6;
   text-align: center;
   margin: 5px 0;
@@ -6506,6 +6506,13 @@ header {
   font-size: 0.9rem;
   color: #555;
 }
+.nhteam-wraper .nhteam-head .nhteam-info {
+  width: 50%;
+  margin-right: 10px;
+}
+.nhteam-wraper .nhteam-head .nhteam-info:last-child {
+  margin-right: 0;
+}
 .nhteam-wraper .nhteam-footer a {
   color: #fff;
   text-decoration: none;
@@ -6513,6 +6520,8 @@ header {
   display: block;
   text-align: center;
   padding: 7px 5px;
+  float: left;
+  width: 50%;
 }
 .nhteam-wraper .nhteam-footer a span {
   display: block;

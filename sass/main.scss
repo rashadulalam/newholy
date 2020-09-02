@@ -228,7 +228,7 @@ header {
             border: 1px solid #ccc;
         }
         h4 {
-            font-size: 1rem;
+            font-size: 14px;
             color: #0075D6;
             text-align: center;
             margin: 5px 0;
@@ -237,6 +237,13 @@ header {
                 display: block;
                 font-size: 0.9rem;
                 color: #555;
+            }
+        }
+        .nhteam-info {
+            width: 50%;
+            margin-right: 10px;
+            &:last-child {
+                margin-right: 0;
             }
         }
     }
@@ -248,6 +255,8 @@ header {
             display: block;
             text-align: center;
             padding: 7px 5px;
+            float: left;
+            width:50%;
             span {
                 display: block;
             }
