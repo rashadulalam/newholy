@@ -28,7 +28,10 @@ $body-bg3: rgb(0, 19, 35);
 @import "../node_modules/bootstrap/scss/navbar";
 @import "../node_modules/bootstrap/scss/dropdown";
 @import "../node_modules/bootstrap/scss/carousel";
-// @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/card";
+@import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/button-group";
+
 @import "./marquee";
 
 
@@ -270,6 +273,84 @@ header {
     }
 }
 
+// info-area
+
+.info-area {
+    background-color: #663399;
+    padding: 3.125rem 0;
+    .info-box {
+        a {
+        display: block;
+        text-align: center;
+        
+        border-bottom: 5px solid #fff;
+        margin-bottom: 30px;
+        text-decoration: none;
+        padding: 10px;
+        color: #fff;
+        transition: all 1s ease;
+            &:hover {
+                background-color: #00213C;
+                transform: translateY(-5px);
+            }
+        }
+        .box1 {
+            background-color: #F56954;
+        }
+        .box2 {
+            background-color: #26B99A;
+        }
+        .box3 {
+            background-color: #F4A82F;
+        }
+        .box4 {
+            background-color: #3498DB;
+        }
+
+    }
+}
+
+// notice box
+.noticebox {
+    .card-title {
+        background-color: #014984;
+        color: #fff;
+        padding: 5px 10px;
+        text-align: center;
+    }
+    .news-item {
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        border-bottom: 2px dotted #ccc;
+        overflow: hidden;
+        a {
+            color: #6c6f72;
+            text-decoration: none;
+            display: block;
+            border-left: 3px solid red;
+            padding-left: 10px;
+            font-size: 16px;
+            &:hover {
+                color: inherit;
+            }
+        }
+        span.news-date {
+            float: right;
+            color: #A0A0A0;
+            font-size: 14px;
+        }
+        &:last-child {
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            border-bottom: 0px dotted #ccc;
+        }
+    }
+
+    #news-outer{
+        height: 230px; 
+        overflow: hidden;
+    }
+}
 
 
 

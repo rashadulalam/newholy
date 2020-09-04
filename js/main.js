@@ -10,5 +10,30 @@ jQuery(document).ready(function() {
 	direction: 'left',
 	//true or false - should the marquee be duplicated to show an effect of continues flow
 	pauseOnHover: true,
-    });
+	});
+	
+
 });
+
+
+// news box
+var interval; 
+
+function startTicker() {
+    $('#news-outer .news-item:first-child').slideUp(function() {
+        $(this).appendTo('#news-outer').slideDown();
+    })
+}
+
+function stopTicker() {
+    clearInterval(interval);
+}
+
+$(document).ready(function() {
+    interval = setInterval(startTicker, 2000);
+    $('#news-outer').hover(function() {
+        stopTicker()
+    }, function() {
+        interval = setInterval(startTicker, 2000);
+    });
+})
