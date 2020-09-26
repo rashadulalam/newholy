@@ -352,10 +352,60 @@ header {
     }
 }
 
+.teachers-area {
+    background-color: #663399;
+    padding: 3.125rem 0;
+    .nhtbox {
+        background-color: #F5C91F;
+        transition: background-color 500ms ease;
+        border-radius: 0;
+        border: 0;
+        .card-body {
+            img {
+                width: 150px;
+                height: 150px;
+                display: block;
+                border: 3px solid #fff;
+            }
+            h4 {
+                text-align: center;
+                font-weight: normal;
+                font-size: 18px;
+                color: #0075D6;
+                span {
+                    display: block;
+                    font-size: 16px;
+                    color: #6c6f72;
+                }
+            }
+            p {
+                text-align: center;
+                font-size: .9rem;
+            }
+        }
+        .card-footer {
+            background-color: #f9f9f9;
+            border-radius: 0;
+        }
+
+        &:hover {
+            background-color: #000000;
+            p {
+                color: #fff;
+            }
+        }
+    }
+}
 
 
 // Footer area
 footer {
+
+
+    .footer-top {
+        background-image: url('../img/bg2.jpg');
+        background-repeat: repeat;
+    }
     // margin-top: 25px;
     .site-copyright {
         background-color: $body-bg3;

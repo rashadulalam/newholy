@@ -7446,6 +7446,52 @@ header {
   overflow: hidden;
 }
 
+.teachers-area {
+  background-color: #663399;
+  padding: 3.125rem 0;
+}
+.teachers-area .nhtbox {
+  background-color: #F5C91F;
+  transition: background-color 500ms ease;
+  border-radius: 0;
+  border: 0;
+}
+.teachers-area .nhtbox .card-body img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  border: 3px solid #fff;
+}
+.teachers-area .nhtbox .card-body h4 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  color: #0075D6;
+}
+.teachers-area .nhtbox .card-body h4 span {
+  display: block;
+  font-size: 16px;
+  color: #6c6f72;
+}
+.teachers-area .nhtbox .card-body p {
+  text-align: center;
+  font-size: 0.9rem;
+}
+.teachers-area .nhtbox .card-footer {
+  background-color: #f9f9f9;
+  border-radius: 0;
+}
+.teachers-area .nhtbox:hover {
+  background-color: #000000;
+}
+.teachers-area .nhtbox:hover p {
+  color: #fff;
+}
+
+footer .footer-top {
+  background-image: url("../img/bg2.jpg");
+  background-repeat: repeat;
+}
 footer .site-copyright {
   background-color: #001323;
   padding: 15px 0;
