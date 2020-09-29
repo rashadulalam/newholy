@@ -7492,6 +7492,33 @@ footer .footer-top {
   background-image: url("../img/bg2.jpg");
   background-repeat: repeat;
 }
+footer .footer-widget {
+  color: #a9a9a9;
+}
+footer .footer-widget .fw-header {
+  color: #fff;
+  font-size: 18px;
+  margin: 10px 0;
+}
+footer .footer-widget ul li a {
+  color: #a9a9a9;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 5px 0;
+  display: block;
+  transition: color 0.3s;
+}
+footer .footer-widget ul li a:hover {
+  color: #CCC;
+}
+footer .footer-widget .fas {
+  background: #001323;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
 footer .site-copyright {
   background-color: #001323;
   padding: 15px 0;
