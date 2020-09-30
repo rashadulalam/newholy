@@ -7446,9 +7446,29 @@ header {
   overflow: hidden;
 }
 
+.section-header {
+  margin-bottom: 30px;
+}
+.section-header h2 {
+  text-transform: uppercase;
+}
+.section-header h2 span {
+  display: block;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
 .teachers-area {
   background-color: #663399;
   padding: 3.125rem 0;
+}
+.teachers-area .section-header h2 {
+  color: #F5C91F;
+}
+.teachers-area .section-header h2 span {
+  display: block;
+  color: #d6d6d6;
+  font-size: 16px;
 }
 .teachers-area .nhtbox {
   background-color: #F5C91F;
@@ -7547,6 +7567,106 @@ footer .site-copyright p {
   font-style: italic;
   line-height: 1.5;
   color: #0075D6;
+}
+
+.tl-wraper {
+  background-color: #fff;
+  padding: 5px;
+  overflow: hidden;
+}
+.tl-wraper .tl-heading {
+  background-color: #00213C;
+}
+.tl-wraper .tl-heading h2 {
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+}
+.tl-wraper a {
+  text-decoration: none;
+}
+.tl-wraper .tlbox {
+  text-align: center;
+  background: #eee;
+  min-height: 170px;
+  max-height: 170px;
+  padding: 15px;
+  margin-bottom: 5px;
+  float: left;
+  transition: background-color 0.3s ease-in-out;
+}
+.tl-wraper .tlbox:nth-child(odd) {
+  background-color: #D6D6D6;
+}
+.tl-wraper .tlbox img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 3px;
+}
+.tl-wraper .tlbox h4 {
+  color: #0075D6;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 8px 0;
+}
+.tl-wraper .tlbox h4 span {
+  display: block;
+  color: #666;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+.tl-wraper .tlbox:hover {
+  background-color: #00213C;
+  color: #ddd;
+  cursor: pointer;
+}
+.tl-wraper .tlbox:hover span {
+  color: #ddd;
+}
+
+.statistics-area {
+  background: #ffffff url("../img/world.jpg") no-repeat right top;
+}
+.statistics-area .section-header h2 {
+  color: #0075D6;
+}
+.statistics-area .section-header h2 span {
+  color: #484848;
+}
+.statistics-area .statistics-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 140px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+.statistics-area .statistics-box h3 {
+  font-size: 36px;
+  color: #0075D6;
+}
+.statistics-area .statistics-box h3 span {
+  display: block;
+  font-size: 18px;
+  color: #666;
+}
+
+@media (max-width: 767.98px) {
+  .app-contact ul {
+    float: none;
+    text-align: center;
+  }
+
+  .app-contact .app-calltoaction {
+    float: none;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

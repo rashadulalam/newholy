@@ -351,10 +351,31 @@ header {
         overflow: hidden;
     }
 }
+.section-header {
+    margin-bottom: 30px;
+    h2 {
+        text-transform: uppercase;
+        span {
+            display: block;
+            font-size: 16px;
+            text-transform: capitalize;
+        }
+    }
+}
 
 .teachers-area {
     background-color: #663399;
     padding: 3.125rem 0;
+    .section-header {
+        h2 {
+            color: #F5C91F;
+            span {
+                display: block;
+                color: #d6d6d6;
+                font-size: 16px;
+            }
+        }
+    }
     .nhtbox {
         background-color: #F5C91F;
         transition: background-color 500ms ease;
@@ -400,3 +421,118 @@ header {
 @import "./footer";
 
 @import "./about_us";
+
+
+
+// teacher profile box
+
+.tl-wraper{
+    background-color: #fff;
+    padding: 5px;
+    overflow: hidden;
+    .tl-heading {
+        background-color: #00213C;
+        h2 {
+            color: #fff;
+            font-size: 15px;
+            padding: 10px;
+        }
+    }
+    .tl-body {}
+    a {
+        text-decoration: none;
+        
+    }
+    .tlbox {
+        text-align: center;
+        background: #eee;
+        min-height: 170px;
+        max-height: 170px;
+        padding: 15px;
+        margin-bottom: 5px;
+        float: left;
+        transition: background-color 0.3s ease-in-out;
+        &:nth-child(odd) {
+            background-color: #D6D6D6;
+        }
+        img {
+            width: 85px;
+            height: 85px;
+            border-radius: 50%;
+            background: #fff;
+            padding: 3px;
+        }
+        h4 {
+            color: #0075D6;
+            font-size: 1rem;
+            text-transform: uppercase;
+            margin: 8px 0;
+            span {
+                display: block;
+                color: #666;
+                font-size: 14px;
+                text-transform: capitalize;
+                margin-top: 5px;
+
+            }
+        }
+
+        &:hover {
+            background-color: #00213C;
+            color: #ddd;
+            cursor: pointer;
+            span {
+                color: #ddd;
+            }
+        }
+    }
+}
+
+
+// statistics area
+.statistics-area {
+    background: #ffffff url("../img/world.jpg") no-repeat right top;
+    .section-header {
+        h2 {
+            color: #0075D6;
+            span {
+                color: #484848;
+            }
+        }
+    }
+    .statistics-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 140px;
+        height: 140px;
+        background-color: rgba(255,255,255,.5);
+        border-radius: 50%;
+        border: 1px solid #ddd;
+        margin-bottom: 15px;
+        
+        h3 {
+            font-size: 36px;
+            color: #0075D6;
+            span {
+                display: block;
+                font-size: 18px;
+                color: #666;
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 767.98px) { 
+    .app-contact ul {
+        // margin-top: 20px;
+        float: none;
+        text-align: center;
+    }
+    .app-contact .app-calltoaction {
+        float: none;
+        text-align: center;
+    }
+
+}
